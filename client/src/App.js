@@ -6,10 +6,12 @@ import { Balance } from "./components/Balance";
 import { IncomeExpenses } from "./components/IncomeExpenses";
 import { TransactionList } from "./components/TransactionList";
 import { AddTransaction } from "./components/AddTransaction";
-
 import {  GlobalProvider } from "./context/GlobalState";
+// import { FilterForm } from "./components/FilterForm";
+import {FormFilter} from './components/FormItens'
 
 function App() {
+
   return (
     <GlobalProvider>
       <Header />
@@ -18,9 +20,11 @@ function App() {
         <IncomeExpenses />
         <TransactionList />
         <AddTransaction />
+        <FormFilter />
       </div>
     </GlobalProvider>
   );
 }
+
 
 export default App;

@@ -149,3 +149,20 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.teste {
+  height: 15px;
+  width: 15px;
+  background-color: orange;
+  border-radius: 50%;
+}
